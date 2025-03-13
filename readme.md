@@ -21,3 +21,10 @@ pytest .\test_circle.py -s
 
 
 ## Mocking
+
+##
+pytest --collect-only -q
+pytest $tests_to_run.txt
+
+##
+pytest --fixtures
